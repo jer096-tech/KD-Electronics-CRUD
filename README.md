@@ -8,7 +8,7 @@ El objetivo principal es permitir la administración de productos electrónicos 
 
 A lo largo del desarrollo, se buscó estructurar el código de manera clara y organizada, separando responsabilidades en diferentes capas para facilitar su comprensión, mantenimiento y escalabilidad.
 
----
+
 
 ## Objetivo
 
@@ -19,7 +19,6 @@ Diseñar e implementar un módulo de gestión de productos que permita:
 * Actualizar la información de los productos (sin modificar el código)
 * Realizar eliminación lógica de productos, conservando su historial en el sistema
 
----
 
 ## Estructura del proyecto
 
@@ -31,7 +30,7 @@ El proyecto se encuentra organizado en paquetes, siguiendo una separación por c
 * `kdelectronics.ui`: Gestiona la interacción con el usuario a través de consola
 * `kdelectronicscrud`: Contiene la clase principal desde donde se ejecuta la aplicación
 
----
+
 
 ## Funcionalidades implementadas
 
@@ -51,7 +50,7 @@ Permite modificar los atributos de un producto existente, exceptuando el código
 
 Los productos no se eliminan físicamente del sistema. En su lugar, se marcan como eliminados, lo que permite conservar la información y evitar inconsistencias en el inventario.
 
----
+
 
 ## Ejecución del proyecto
 
@@ -70,7 +69,7 @@ Los productos no se eliminan físicamente del sistema. En su lugar, se marcan co
    ```
 3. Interactuar con el menú en consola para probar las funcionalidades del sistema
 
----
+
 
 ## Pruebas realizadas
 
@@ -83,7 +82,7 @@ Durante la ejecución del sistema se verificaron las siguientes operaciones:
 * Validación del estado de los productos (activo o eliminado)
 * Listado general de productos registrados
 
----
+
 
 ## Consideraciones técnicas
 
@@ -97,13 +96,12 @@ Se implementaron validaciones para garantizar la integridad de la información, 
 
 Además, se aplicaron principios básicos de la programación orientada a objetos, como encapsulamiento y separación de responsabilidades.
 
----
+
 
 ## Repositorio
 
-(Agregar aquí el enlace del repositorio en GitHub)
+https://github.com/jer096-tech/KD-Electronics-CRUD.git
 
----
 
 ## Autor
 
